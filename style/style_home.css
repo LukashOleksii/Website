@@ -3,7 +3,6 @@
 body{
 	background: url(pictures/55.jpg) no-repeat;
 	
-
 }
 
 .picture{
@@ -51,7 +50,7 @@ body{
     font-family: 'Poppins';
     color: black;
     float: left;
-   		margin: 50px 0 30px 5%;
+   	margin: 50px 0 30px 5%;
     background: white;
     display: block;
 }
