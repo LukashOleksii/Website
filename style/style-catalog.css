@@ -169,7 +169,6 @@ nav a{
 		height: 18800px;
 	}
 	
-	
 	.img img{
 		height: 450px;
 	}
@@ -186,7 +185,9 @@ nav a{
 
 
 @media(max-width: 600px){
-
+	#catalog{
+		height: 14900px;
+	}
 	.item{
 		width: 60%;
 		height: 540px;
@@ -207,6 +208,9 @@ nav a{
 
 
 @media(max-width: 500px){
+	#catalog{
+		height: 12800px;
+	}
 	.picture{
 		height: 220px;
 	}
