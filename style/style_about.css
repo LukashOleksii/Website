@@ -126,7 +126,7 @@ body{
 }
 @media(max-width: 450px){
 	.line{
-		font-size: 1em;
+		font-size: 1.5em;
 		padding-top:  150px;
 	}
 	.line h1{
@@ -138,7 +138,7 @@ body{
 		width: 200px;
 	}
 		.team{
-		height: 1700px;
+		height: 1800px;
 	}
 }
 @media(min-width: 1800px){

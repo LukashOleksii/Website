@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 body{
-	background: url(pictures/55.jpg) no-repeat;
-	
+	background:  url(pictures/55.jpg) no-repeat;
+	background-size: contain;
 }
 
 .picture{
-	height: 450px;
+	
+	height: 380px;
 }
 .line{
 	padding: 65px;
@@ -23,7 +24,7 @@ body{
 }
 
 #home{
-	height: 1400px;
+	height: 1600px;
 	background: white;
 
 }
@@ -32,16 +33,19 @@ body{
 	width: 100%;
 	background: #071222;
 	text-align: center;
+	
 }
 .popular h1{
 	padding-top: 40px;
 	font-family: "Poppins";
 	color: #fff;
 	text-transform: uppercase;
+	font-size: 250%;
 }
 .cont{
 	width: 100%;
 	height: 75%;
+  
 }
 
 .item{
@@ -50,9 +54,10 @@ body{
     font-family: 'Poppins';
     color: black;
     float: left;
-   	margin: 50px 0 30px 5%;
+   	margin: 5% 0 5% 5%;
     background: white;
     display: block;
+
 }
 .img img{
 	width: 100%;
@@ -118,10 +123,15 @@ body{
 	font-family: "Poppins";
 	color: #000;
 	text-transform: uppercase;
+	font-size: 250%;
 }
-@media(max-width: 1350px){
+
+@media(max-width: 1400px){
 	#home{
-		height: 2400px;
+		height: 1400px;
+	}
+	.picture{
+		height: 300px;
 	}
 	.popular{
 		height: 50%;
@@ -131,63 +141,168 @@ body{
 	}
 	.cont{
 		width: 100%;
-		height: 80%;
+		height: 70%;
 	}
-	.item{
-		margin: 6% 6% 6% 6%;
-	}
+	
+}
 
-}
-@media(max-width: 1200px){
+@media(max-width: 1300px){
 	.item{
-		margin-left: 15%;
-	}
-}
-@media(max-width: 880px){
-	.item{
-		margin-left: 8%;
-	}
-}
-@media(max-width: 715px){
-	.cont{
-		margin-left: 40px;
-	}
-	.item{
-		margin-left: 3%;
-	}
-}
-@media(max-width: 630px){
-	.cont{
-		margin-left: 20px;
-	}
-	.item{
-
-		margin-left: 0.5%;
-	}
-}
-@media(max-width: 585px){
-	.item{
-		margin-left: 20%;
-	}
-	.popular{
-		height: 50%;
-	}
-	.new{
-		height: 50%;
+		width: 300px;
+		height: 420px;
 	}
 	#home{
-		height: 3800px;
+		height: 2500px;
+	}
+	.picture{
+		height: 200px;
 	}
 	.cont{
-	width: 100%;
-	height: 90%;
+		height: 85%;
 	}
+
 }
-@media(max-width: 500px){
-	.cont{
-		margin-left: 10px;
-	}
+
+@media(max-width: 1100px){
 	.item{
-		margin-left: 10%;
+		width: 380px;
+		height: 580px;
+	}
+	#home{
+		height: 3200px;
+	}
+	.picture{
+		height: 200px;
+	}
+	.cont{
+		height: 85%;
+	}
+	.img img{
+		height: 320px;
+	}
+	.item h3{
+		margin: 20px;
+		font-size: 30px;
+	}
+	.btn button{
+		height: 55px;
+	}
+
+}
+
+@media(max-width: 850px){
+	.item{
+		width: 320px;
+		height: 480px;
+	}
+	#home{
+		height: 2800px;
+	}
+	.picture{
+		height: 250px;
+	}
+	.cont{
+		height: 85%;
+	}
+	.img img{
+		height: 300px;
+	}
+	.item h3{
+		margin: 10px;
+		font-size: 20px;
+	}
+	.btn button{
+		height: 45px;
+	}
+	body{
+	background:  url(pictures/f-mb.jpg);
+	background-size: contain;
+}
+
+}
+
+@media(max-width: 750px){
+	.item{
+		margin-left: 15%;
+		margin-right: 15%;
+		width: 70%;
+		height: 700px;
+	}
+	#home{
+		height: 6600px;
+	}
+	
+	.cont{
+		height: 90%;
+	}
+	.img img{
+		height: 450px;
+	}
+	.item h3{
+		margin: 20px;
+		font-size: 30px;
+	}
+	.center-btn button{
+		margin-top: 100px;
+	}
+
+}
+
+
+@media(max-width: 600px){
+	.item{
+		width: 60%;
+		height: 530px;
+		margin-left: 20%;
+		margin-right: 20%
+	}
+	#home{
+		height: 5100px;
+	}
+	.cont{
+	
+		height: 90%;
+	}
+	.img img{
+		height: 300px;
+	}
+	.item h3{
+		margin: 10px;
+		
+	}
+	.center-btn button{
+		margin-top: 40px;
+	}
+	.picture{
+		height: 200px;
 	}
 }
+
+
+@media(max-width: 500px){
+	.item{
+		width: 80%;
+		height: 450px;
+		margin-left: 10%;
+		margin-right: 10%
+	}
+	#home{
+		height: 4400px;
+	}
+	.cont{
+		height: 90%;
+	}
+	.img img{
+		height: 250px;
+	}
+	.item h3{
+		font-size: 20px;
+	}
+	.center-btn button{
+		margin-top: 0px;
+	}
+
+}
+
+
+

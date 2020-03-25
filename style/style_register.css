@@ -1,10 +1,9 @@
 
 #register{
-	top: 60px;
 	position: relative;
 	margin: 10% auto;
 	height: 400px;
-	width: 40%;
+	width: 600px;
 	background: rgba(0, 0, 0, 0.5); ;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8) ;
 }
@@ -115,31 +114,47 @@ button.social{
 .gl{
 	background: #ea4335;
 }
-@media(max-width: 1300px){
-	#register{
-		width: 50%;
-		top: 100px;
-	}
-}
 @media(max-width: 1000px){
 	#register{
-		width: 400px;
-		top: 150px;
+		width: 60%;
+	}
+}
+@media(max-width: 800px){
+	#register{
+		width: 70%;
+	}
+}
+
+
+@media(max-width: 700px){
+	#register{
+		width: 80%;
+		
+	}
+	h1{
+		width: 100%;
 	}
 	.left-box{
-		width: 300px;
+		width: 60%;
 	}
 	.right-box{
-		width: 30%;
+		width: 40%;
+	
+		text-align: center;
 	}
 	.or{
-		left: 65%
+		left: 55%
 	}
 	.right-box .signinwith{
 		display: none;
 	}
+	.soc{
+		margin-left: 25%;
+	}
 	button.social{
-		margin-top: 30px;
+		margin-top: 40px;
+
+		display: block;
 		width: 48px;
 		height: 48px;
 		border-radius: 12px;
@@ -156,4 +171,13 @@ button.social{
 	.gl{
 		background-image: url(pictures/Google.png);
 	}
+}
+@media (max-width: 500px){
+	input[type="text"], input[type="password"]{
+
+		width: 90%;
+	}
+	
+	.soc{
+		margin-left: 15%;
 }
